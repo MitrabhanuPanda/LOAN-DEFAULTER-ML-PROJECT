@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 import pickle
 
-model=pickle.load(open("C:\\Users\\mitra\\OneDrive\\Desktop\\CREDIT RISK\\DATASET\\1. LOAN DEFAULT DATA\\MODEL\\model.pkl","rb"))
+model=pickle.load(open(r"MODEL/model.pkl","rb"))
 df=pickle.load(open(r"MODEL/df.pkl","rb"))
-df1=pd.read_csv(r"C:\Users\mitra\OneDrive\Desktop\CREDIT RISK\DATASET\1. LOAN DEFAULT DATA\final_data.csv")
+# df1=pd.read_csv(r"C:\Users\mitra\OneDrive\Desktop\CREDIT RISK\DATASET\1. LOAN DEFAULT DATA\final_data.csv")
 
 
 st.title("LOAN DEFAULTER MODEL PREDICTION")
